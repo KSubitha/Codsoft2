@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDo App</string>
+    <string name="tasks">Task List</string>
+    <string name="new_task">New Task</string>
+    <string name="SampleText">This is a Sample Text for this application</string>
+    <string name="new_tasks">Add New Task....</string>
+    <string name="save">Save Task </string>
+    <string name="todo_app">ToDo App</string>
+    <string name="to_do_your_work_correctly">To Do Your work Correctly...</string>
+</resources>

@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <EditText
+        android:id="@+id/newTaskList"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="@color/Primary"
+        android:hint="@string/new_tasks"
+        android:importantForAutofill="no"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTaskList"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/Secondary"
+        android:elevation="4dp"
+        android:textColorHint="@color/white"
+        android:text="@string/save"
+        android:textColor="@color/white"
+    android:textAllCaps="false"
+    android:textSize="16sp" />
+
+
+
+</RelativeLayout>
